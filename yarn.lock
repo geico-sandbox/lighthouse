@@ -1612,10 +1612,10 @@
   dependencies:
     "@opentelemetry/core" "^1.1.0"
 
-"@paulirish/trace_engine@0.0.61":
-  version "0.0.61"
-  resolved "https://registry.yarnpkg.com/@paulirish/trace_engine/-/trace_engine-0.0.61.tgz#0d4c2c2a4d6c5b9a09f36f2feb7d8c41348a3224"
-  integrity sha512-/O08DwmUqIlJjUSPSZbNF8lWnlxaMsIOV6sS+uDKCxBd5i1psAmjEoG3JAqR6+nHD8X+YY474NW7SxUH/K+/kQ==
+"@paulirish/trace_engine@0.0.64":
+  version "0.0.64"
+  resolved "https://registry.yarnpkg.com/@paulirish/trace_engine/-/trace_engine-0.0.64.tgz#d7cbb7029e84f409ac844e75f5594c3271d0bc3f"
+  integrity sha512-M1krpfOXJcIQPb6TI6iA+9hHRPv3AxFNHPp/iewzUqbfPL5VnTAqkt6xyqwVGmsuQrko7nV1O3MvLZ3SXfPxbA==
   dependencies:
     legacy-javascript latest
     third-party-web latest
@@ -8129,10 +8129,10 @@ walker@^1.0.8:
   dependencies:
     makeerror "1.0.12"
 
-web-features@^3.21.0:
-  version "3.21.0"
-  resolved "https://registry.yarnpkg.com/web-features/-/web-features-3.21.0.tgz#e1e648e9d23ae104432b3eaeb1f2c987c5020d04"
-  integrity sha512-KfLWQivp9KjNSvL62+Cu83dAfhTqr4EsDTCZP87IKQfhMSpYqXJZxgXwKz4+RbH5UFIHdnKQoK7jMfdwTWOd/A==
+web-features@^3.24.0:
+  version "3.24.0"
+  resolved "https://registry.yarnpkg.com/web-features/-/web-features-3.24.0.tgz#2583eb1289bb3311aaaa896f7c91b67dbb04d775"
+  integrity sha512-D/e/FlTPpbTbSHwwS+8qgwP6E6TTlYnTJnSk/y80GKqlUVrtq69fpXZrcDy6GhNGgqUYtG8nOoiXj+Fh/a1dBQ==
 
 webdriver-bidi-protocol@0.4.1:
   version "0.4.1"
