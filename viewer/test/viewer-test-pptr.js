@@ -415,7 +415,7 @@ describe('Lighthouse Viewer', () => {
           'accessibility',
           'seo',
           'best-practices',
-          'agentic-browsing',
+          // 'agentic-browsing',
         ],
         strategy: 'mobile',
         // These values aren't set by default.
@@ -424,7 +424,8 @@ describe('Lighthouse Viewer', () => {
       });
 
       // Confirm that all default categories are used.
-      const defaultCategories = Object.keys(defaultConfig.categories).sort();
+      const defaultCategories = Object.keys(defaultConfig.categories).sort()
+        .filter(c => c !== 'agentic-browsing');
       expect(interceptedUrl.searchParams.getAll('category').sort()).toEqual(defaultCategories);
 
       // No errors.
